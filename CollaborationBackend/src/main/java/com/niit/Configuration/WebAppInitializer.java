@@ -21,5 +21,4 @@ public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServlet
 	{
 		return new String[]{"/"}; //any requests, forward the request to DispatcherServlet
 	}
-
 }

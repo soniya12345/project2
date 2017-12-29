@@ -10,6 +10,8 @@ import org.springframework.stereotype.Repository;
 
 import com.niit.Model.User;
 
+
+
 @Repository
 @Transactional
 public class UserDaoImpl implements UserDao
@@ -74,6 +76,5 @@ public class UserDaoImpl implements UserDao
 		return user;
 	}
 
-	
 
 }

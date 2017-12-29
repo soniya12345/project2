@@ -15,7 +15,7 @@ public class Job {
 private int id;
 private String jobTitle;
 private String jobDescription;
-private String skillRequired;
+private String skillsRequired;
 private String yrsOfExp;
 private String salary;
 private String companyname;
@@ -40,10 +40,10 @@ public void setJobDescription(String jobDescription) {
 	this.jobDescription = jobDescription;
 }
 public String getSkillRequired() {
-	return skillRequired;
+	return skillsRequired;
 }
 public void setSkillRequired(String skillRequired) {
-	this.skillRequired = skillRequired;
+	this.skillsRequired = skillRequired;
 }
 public String getYrsOfExp() {
 	return yrsOfExp;
